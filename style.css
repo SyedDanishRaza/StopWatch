@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    margin-top: 250px;
+    justify-content: center;
+    background: #ffffff;
+    padding: 40px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    height: 200px;
+    width: 200px;
+    color: #000000;
+    border: 8px solid #000000;
+    border-radius: 150px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, alpha);
+}
+.container:hover {
+    margin-top: 250px;
+    justify-content: center;
+    background: #f7f7f7;
+    padding: 40px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    height: 200px;
+    width: 200px;
+    color: #000000;
+    border: 10px solid #000000;
+    border-radius: 150px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, alpha);
+}
+.no{
+    border-radius: 5px;
+    border: 5px solid #000000;
+}
+.no:hover{
+    border-radius: 5px;
+    border: 8px solid #000000;
+}
+.container h1{
+    font-size: x-large;
+    font-weight: 600;
+}
+.display-text{
+    font-weight: bold;
+}
+.display-text:hover{
+    font-weight: 800;
+}
+#display {
+    font-size: 40px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+button{
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 5px;
+}
+.st{
+    background: #16943a;
+    color: #ffffff;
+    border: #000000;
+}
+.st:hover{
+    background: #0a6e26;
+    color: #ffffff;
+    border: #000000;
+    cursor: pointer;
+    border: 5px solid #000000;    
+}
+.sp{
+    background: #941616;
+    color: #ffffff;
+    border: #000000;
+
+}
+.sp:hover{
+    background: #7e1111;
+    color: #ffffff;
+    border: #000000;
+    cursor: pointer;
+    border: 5px solid #000000;    
+}
+.re{
+    background: #162994;
+    color: #ffffff;
+    border: #000000;
+
+}
+.re:hover{
+    background: #01145b;
+    color: #ffffff;
+    border: #000000;
+    cursor: pointer;
+    border: 5px solid #000000;
+}
+
+
+.btns {
+    margin-top: 350px;
+    padding-left: 50px;
+}
